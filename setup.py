@@ -8,7 +8,7 @@ setuptools.setup(
     version="1.0",
     author="Tom Holroyd",
     author_email="holroydt@mail.nih.gov",
-    description="Lite version of pyctf to open/save ctf datasets in python",
+    description="Lite version of pyctf to open/save CTF datasets in Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/nih-megcore/pyctf-lite",
@@ -19,4 +19,5 @@ setuptools.setup(
         "Operating System :: Linux/Unix",
     ],
     install_requires=['numpy'],
+    scripts=['addMarker/addMarker.py', 'addMarker/delMarker.py'],
 )
