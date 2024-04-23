@@ -19,5 +19,5 @@ setuptools.setup(
         "Operating System :: Linux/Unix",
     ],
     install_requires=['numpy'],
-    scripts=['addMarker/addMarker.py', 'addMarker/delMarker.py'],
+    scripts=['pyctf-lite/addMarker/addMarker.py', 'pyctf-lit/addMarker/delMarker.py'],
 )
