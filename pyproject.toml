@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyctf"
+description = "CTF MEG functions integrated into python"
+readme = "README.md"
+#requires-python = "<3.12"
+#keywords = ["one", "two"]
+
+authors = [
+  { name="Tom Holroyd", email="holroydt@mail.nih.gov"},
+  { name="Jeff Stout", email="stoutjd@nih.gov" },
+]
+
+license = {text = "GPLv3"}
+classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: UNLICENSE",
+        "Operating System :: Linux/Unix",
+    ]
+dependencies = ['numpy']
+
+dynamic = ["version"]
+
+
+[project.scripts]
+#Integrate the following
+#scripts=['pyctf/addMarker/addMarker.py', 'pyctf/addMarker/delMarker.py']
+
+[tool.setuptools.packages.find]
+include = ["pyctf*"]
