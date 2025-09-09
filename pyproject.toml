@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pyctf"
 description = "CTF MEG functions integrated into python"
 readme = "README.md"
+version = 1.1
 #requires-python = "<3.12"
 #keywords = ["one", "two"]
 
@@ -22,7 +23,6 @@ classifiers=[
     ]
 dependencies = ['numpy']
 
-dynamic = ["version"]
 
 
 [project.scripts]
